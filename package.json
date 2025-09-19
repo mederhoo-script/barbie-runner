@@ -1,0 +1,30 @@
+{
+  "name": "barbie-runner",
+  "version": "1.0.0",
+  "description": "3D endless runner Web3 game with Barbie-style theming",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["game", "web3", "react", "threejs", "barbie", "endless-runner"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
+    "@walletconnect/ethereum-provider": "^2.21.9",
+    "ethers": "^6.15.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.180.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.3",
+    "vite": "^7.1.6"
+  }
+}
